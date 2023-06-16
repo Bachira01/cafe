@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+
+/* inicio */
+
+header {
+  background-color: #2E46AF;
+  display: block;
+}
+header .header_logo {
+    height: 60px;
+    text-decoration: none;
+    color: white;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 21px 10px 21px;
+}
+header .header .header_icon--default {
+  color: #e2e2e2;
+  padding: 5px;
+}
+header .header_under {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+header .header_under ul li {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  padding: 10px;
+}
+header .header_under ul li a {
+  text-decoration: none;
+  color: #e2e2e2;
+}
+  
+ /* fin del header */
+
+html {
+    font-size: 1rem;
+}
+
+body {
+  height: 100vh;
+}
+
+section .banner_shop {
+  display: banner_shop;
+  max-width: 1080px;
+  justify-content: center;
+}
+  .banner_shop img {
+    width:100vw;
+    height: 30vw;
+  }
+
+
+
+.container {
+    background-color: #F5F3F3;
+}
+
+.container nav {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    color: #333
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #222;
+
+}
+
+/* preguntar grilla responsive */
+
+.grid {
+    display: grid;
+    max-width: 1100px;
+    margin-left: 730px;
+    gap: 20px;
+    grid-template-columns: repeat(3,320px);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.items {
+    border: solid thin rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.items img {
+    width: 100%;
+    height: 320px;
+    border-radius: 50px;
+}
+
+.items button {
+  padding:1rem ;
+  width: 80%;
+  background-color: #E0BDDD;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+
+.items button:hover {
+  background-color: #ac71a7;
+  transition: all .3s;
+}
+
+
+footer {
+  background-color: #2E46AF;
+  display: block;
+}
+
+footer .footer_social_media {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+}
+
+/*postion para abajo de gonzalo */
+
+footer .footer_home {
+  text-align: center;
+  list-style: none;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
